@@ -1,0 +1,9 @@
+.btn--small {
+    width: 100px;
+    font-size: 14px;
+}
+
+.btn--large {
+    width: 200px;
+    font-size: 20px;
+}
