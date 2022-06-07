@@ -28,6 +28,7 @@ export const createPage = ({
     });
 
     const button = createButton({ 
+        size: 'large',
         label: '더보기',
         backgroundColor: '#ff696f' 
     });
