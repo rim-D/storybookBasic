@@ -1,5 +1,5 @@
-import { createButton } from './Button';
-import { createHeading } from './Heading';
+import { createButton } from '../atoms/Button';
+import { createHeading } from '../atoms/Heading';
 import "./Page.css";
 
 // 기본 셋팅 값
@@ -11,7 +11,7 @@ export const createPage = ({
           container.className = [`inner--${containerWidth}`];
           container.style.backgroundColor = backgroundColor;
 
-    const mainText = createHeading({ text: 'Test Page'});
+    const mainText = createHeading({ size:2, text: 'Test Page'});
     const secontText = createHeading({ 
         size: 5,
         text: `Lorem Ipsum is simply dummy text of the printing 
